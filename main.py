@@ -1,8 +1,7 @@
+##Jasmine Hu
+
 def decode(password):
     pass
-
-
-
 
 def encode(password):
 

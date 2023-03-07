@@ -1,7 +1,13 @@
 ##Jasmine Hu
 
-def decode(password):
-    pass
+def decode(password):   # Decode function modified by Xin Zhao
+    res = ""
+    for num in password:
+        new_num = str((int(num) - 3) % 10)
+        res += new_num
+
+    return res
+
 
 def encode(password):
 
